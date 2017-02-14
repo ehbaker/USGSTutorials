@@ -22,9 +22,9 @@ To Sign up for GitHub with an official USGS account, follow [these directions](h
 * You must use your USGS email and name
 
 From here, I reccommend using SoftwareCarpentry's [Version Control with GitHub](http://swcarpentry.github.io/git-novice/):
-* You can fly through it pretty darn quickly!They say  it takes 2.5 hrs.
+* You can fly through it pretty darn quickly! They say  it takes 2.5 hrs. If you don't have that kind of time today, see below.
 
-If that's too in-depth, get started super quickly with the quick-and-derty version:
+The quick-and-dirty version:
 ------
 1. From the **Start** menu, open 'GitBash'
   * This will open a scary-looking GitBash terminal window (no GUI? The horror!). Don't freak out! Remember you look super cool with a command prompt on your screen.
