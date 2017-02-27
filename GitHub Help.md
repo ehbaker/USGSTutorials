@@ -35,9 +35,10 @@ The quick-and-dirty version:
   * Alternatively, you can use tab completion; type `cd Docu` and then hit tab; the rest of `Documents` should fill in. Ditto for the rest of the path. This is a handy little shortcut, and prevents silly typos!!
 3. Once you're in the directory you want to track, type `git init`. This initiates a tracking system for files in the directory (and sub-directories). However, you must tell it which files in there you want to track.
 4. To do that, you type `git add filename`. Use tab completion to add filename, to prevent typos. This adds to staging area.
-5. To sotre file in version control, type `git commit filename -m "message about what you did to the file"`
+5. To store file in your local (your computer) version control, type `git commit filename -m "message about what you did to the file"`
   * This part is a little tricky - it will not accept the commit without a note about what you've done to the file. Useful for going back through different versions. Can be confusing if an error message pops up while commiting. Repeat for all files you wish to track, and eventually push to github.
-** Now your file(s) are being tracked by Git! Hooray **
+  
+**Now your file(s) are being tracked by Git! Hooray**
 
 6. Push files to GitHub. Go to your GitHub page, and start a new repository  (your github -> Repositories -> New). 
   * Do not initialize with a read-me or liscence; just make an empty repo.
