@@ -26,6 +26,7 @@ From here, I reccommend using SoftwareCarpentry's [Version Control with GitHub](
 
 The quick-and-dirty version:
 ------
+note: [this linked tutorial](https://try.github.io/levels/1/challenges/1) lets you practice these commands online, and prompt you if you mess up - pretty neat
 1. From the **Start** menu, open 'GitBash'
   * This will open a scary-looking GitBash terminal window (no GUI? The horror!). Don't freak out! Remember you look super cool with a command prompt on your screen.
 2. Navigate to the directory (folder) that you want to track. To do that in the command line, you type `cd` to change directory.
