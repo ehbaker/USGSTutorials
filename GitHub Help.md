@@ -45,13 +45,15 @@ To push files from your computer to GitHub:
   
 **Now your file(s) are being tracked by Git! Hooray**
 
+**BUT: we still need to push them up to GitHub, to share with others**
+
 6. Push files to GitHub. Go to your GitHub page, and start a new repository  (your github -> Repositories -> New). 
   * Do not initialize with a read-me or liscence; just make an empty repo.
 7. Now you will see a bunch of text under "Quick Setup".
   * Copy the code under **" ...or push an exising repository from the command line"** (git remote add origin blah blah blah)
   * Paste the code into your GitBash terminal window. Hit enter if needed. Read the happy little Writing Objects 100% success message.
   * Now, refresh your browser window on the github page. **WOW, your files are there!! Amazing!**
-8. In the future, to push changes made on your local machine up to GitHub, use `git push origin master`. To get changes made by yourself in the online editor, use 'git pull origin master'. Get in the habit of doing these regularly, so that both are in sync. Git knows which file was updated most recently, and will let you know if there is a merge conflict it can't resove. Hooray!
+8. In the future, to push changes made on your local machine up to GitHub, use `git push origin master`. To get changes made by yourself in the online editor, use `git pull origin master`. Get in the habit of doing these regularly, so that both are in sync. Git knows which file was updated most recently, and will let you know if there is a merge conflict it can't resove. Hooray!
 
 
 
