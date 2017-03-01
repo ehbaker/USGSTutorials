@@ -26,14 +26,17 @@ From here, I reccommend using SoftwareCarpentry's [Version Control with GitHub](
 
 The quick-and-dirty version:
 ------
-note: [this linked tutorial](https://try.github.io/levels/1/challenges/1) lets you practice these commands online, and prompt you if you mess up - pretty neat
+note: [this linked tutorial](https://try.github.io/levels/1/challenges/1) lets you practice these commands online, and prompts you if you mess up - **RUN THROUGH THIS FIRST**. 
+
+To push files from your computer to GitHub:
+==
 
 1. From the **Start** menu, open 'GitBash'
   * This will open a scary-looking GitBash terminal window (no GUI? The horror!). Don't freak out! Remember you look super cool with a command prompt on your screen.
 2. Navigate to the directory (folder) that you want to track. To do that in the command line, you type `cd` to change directory.
-  * Typing `pwd` and hitting enter will show where in the folder tree you are currently.
-  * Typing `ls` and hitting enter will list all the files in that directory. To see hidden files, use `ls -a`
-  * If you're in "Users/yourname", and want to access a folder called "Dragon Taming" in your Documents folder, you can type `cd Documents/Dragon Taming`
+  * Typing `pwd` and hitting enter will show where in the folder tree you are currently (short for print working directory).
+  * Typing `ls` and hitting enter will list all the files in that directory. To see hidden files, use `ls -a` (short for 'list')
+  * If you're in "Users/yourname", and want to access a folder called "Dragon Taming" in your Documents folder, you can type `cd Documents/Dragon Taming` (cd is short for 'change directory').
   * Alternatively, you can use tab completion; type `cd Docu` and then hit tab; the rest of `Documents` should fill in. Ditto for the rest of the path. This is a handy little shortcut, and prevents silly typos!!
 3. Once you're in the directory you want to track, type `git init`. This initiates a tracking system for files in the directory (and sub-directories). However, you must tell it which files in there you want to track.
 4. To do that, you type `git add filename`. Use tab completion to add filename, to prevent typos. This adds to staging area.
