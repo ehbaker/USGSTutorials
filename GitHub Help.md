@@ -42,6 +42,9 @@ To push files from your computer to GitHub:
 4. To do that, you type `git add filename`. Use tab completion to add filename, to prevent typos. This adds to staging area.
 5. To store file in your local (your computer) version control, type `git commit filename -m "message about what you did to the file"`
   * This part is a little tricky - it will not accept the commit without a note about what you've done to the file. Useful for going back through different versions. Can be confusing if an error message pops up while commiting. Repeat for all files you wish to track, and eventually push to github.
+  * The default editor in Bash is an old-school program called 'vim'. It's difficult to use; if you end up here accidentally, exit by typing Esc then :q! . 
+  * To avoid getting stuck in vim next time, either 1) remember to enter a commit message with `-m "message about the changes I made"`, and/or follow [these directions](http://swcarpentry.github.io/git-novice/02-setup/) to re-configure Bash's default text editor.
+
   
 **Now your file(s) are being tracked by Git! Hooray**
 
